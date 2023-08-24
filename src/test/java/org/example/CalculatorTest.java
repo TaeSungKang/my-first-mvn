@@ -15,7 +15,7 @@ public class CalculatorTest extends TestCase {
         int actualValue = calc.add(5, 10);
         int expectedValue = 25;
 
-        assertFalse(actualValue != expectedValue);
+        assertFalse(actualValue == expectedValue);
     }
 
     public void testAddException() {
